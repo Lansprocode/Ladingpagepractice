@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Registrate</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/styles6.css">
+    <link rel="icon" href="img/icon.png" type="img/png">
+</head>
+<body>
+	
+	<div class="">
+
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <buttom type="buttom" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </buttom>
+                <a href="index.html" class="navbar-brand"><strong id="mate">MYCAMARO.COM</strong></a>
+            </div>       
+
+            <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li id="lol"><a href="index.html"><i id="iconcolor" class="fa fa-home" aria-hidden="true"></i><strong>Home</strong></a></li>
+                <li id="lol"><a href="index2.html"><i id="iconcolor" class="fa fa-car 1px" aria-hidden="true"></i><strong>Vehicles</strong></a></li>
+                <li id="lol"><a href="index3.html"><i id="iconcolor" class="fa fa-picture-o" aria-hidden="true"></i><strong>Gallery</strong></a></li>
+                <li id="lol"><a href="index4.html"><i id="iconcolor" class="fa fa-bookmark" aria-hidden="true"></i><strong>History</strong></a></li>
+                <li id="lol" class="active"><a href="index5.html"><i id="iconcolor" class="fa fa-address-card" aria-hidden="true"></i><strong>Contact</strong></a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                 <a href="http://wwww.facebook.com/lansperformance"  target="_blank" style="color:blue">
+                            <i class="fa fa-facebook-square fa-3x"></i>
+                 </a>
+                 <a href="http://www.twitter.com/lansperformance" target="_blank" style="color:lightblue">
+                            <i class="fa fa-twitter-square fa-3x"></i>
+                </a>
+            </ul>
+            </div>
+         </div>
+        </nav>
+	
+	<header id="cabecera">
+		
+	</header>
+		
+	<section id="seccion">
+		<main id="principal">
+    <form action="form" action="#" method="POST">
+        <h4>Registrate</h4>
+      <div>
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" placeholder="Nombre" required="" id="nombre">
+      </div>
+        <br>
+      <div>
+        <label for="apellido">Apellido:</label>
+        <input type="text" name="apellido" placeholder="Apellido" required="" id="apellido">
+      </div>
+        <br>
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" name="email" placeholder="Email" id="email">
+      </div>
+        <br>
+      <div>
+        <label for="edad">Edad:</label>
+        <input type="number" name="edad" placeholder="edad" required="" id="edad" min="0" max="70">
+      </div>
+          <br>
+      <div>
+        <label for="genero" class="block">Genero:</label>
+        <select name="genero" id="genero">
+          <option value="select">Select</option>
+          <option value="masculino">Masculino</option>
+          <option value="femenino">Femenino</option>
+        </select>
+      </div>  
+        <br>
+      <div>
+        <label for="ocupacion">Ocupacion</label>
+        <input type="text" id="ocupacion" name="ocupacion" required="" placeholder="Ocupacion?">
+      </div>
+        <br>
+      <div>
+        <label for="pais">Pais:</label>
+        <select name="pais" id="pais">
+            <option value="select">Select</option>
+            <option value="venezuela">Venezuela</option>
+            <option value="usa">United States</option>
+            <option value="israel">Israel</option>
+            <option value="uruguay">Uruguay</option>
+            <option value="colombia">Colombia</option>
+            <option value="mexico">Mexico</option>
+            <option value="brasil">Brasil</option>
+            <option value="peru">Peru</option>
+            <option value="chile">Chile</option>
+            <option value="cuba">Cuba</option>
+            <option value="ecuador">Ecuador</option>
+            <option value="francia">Francia</option>
+            <option value="roma">Roma</option>
+        </select>
+      </div>
+        <br>
+      <div>
+        <label for="usuario">Usuario:</label>
+        <input type="text" name="usuario" id="usuario" required="" placeholder="ingrese su usuario">
+      </div>
+        <br>
+      <div>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required="" placeholder="ingrese su password">
+      </div>
+        <br>
+      <div>
+        <button type="submit" onclick=""><i class="fa fa-send"></i><a href="index.html">Registrar</a></button>
+      </div>
+
+      <div>
+        <label for="mensaje">Escribe un Comentario.</label>
+        <textarea class="form-control" name="mensaje" id="mensaje" type="text" cols="20" rows="10" placeholder="Escribe tu comentario."></textarea>
+        <input type="submit" id="mensaje" class="form-control">
+      </div>
+
+    </form>
+  </main>
+	</section>
+		
+	<aside id="columna">
+		
+		<figure>
+			<article>
+			<p>
+				Puedes dejarnos un Comentario sobre como ha sido tu experiencia en nuestra plataforma, tu opinión es importate para nosotros nos ayuda a mejorar cada dia! 
+			</p>
+		</article>
+			<img src="img/camaro19.jpg" alt="" width="700px">
+		</figure>
+	</aside>
+	
+	
+
+
+
+	 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    </div>
+</body>
+</html>

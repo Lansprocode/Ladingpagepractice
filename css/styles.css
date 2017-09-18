@@ -1,0 +1,153 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+body {
+	background-position: center;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-color: #f2f2f2;
+	font-family: sans-serif;
+	color: #555;
+	font-family: 'Source Sans Pro', sans-serif;
+    background:	#F5F5F5;
+    font-size: 12px;
+    height: 100%;
+}
+
+strong{
+	color: white;
+	font-family: tahoma;
+}
+#iconcolor{
+	color: orange;
+	
+}
+
+/* Titulo dentrol banner */
+header {
+	background: url("../img/banner.jpg") no-repeat center rgba(0,0,0,.5);
+	background-size: cover;
+	width: 100%;
+	min-height: 530px;
+	padding-top: 100px;
+	text-align: center;
+}
+header h1 {
+	color: lightgreen;
+	margin-bottom: 15px;
+	letter-spacing: 1px;
+	text-align: center;
+	margin-top: 10%;
+	background:  rgba(0,0,0,.5);
+	border-radius: 30px;
+}
+
+header h4 {
+	background: rgba(0,0,0,.5);
+	border-radius: 30px;
+	color: white;
+}
+header a {
+	color: white;
+}
+
+/* Group H */
+
+h1{
+	font-size:40px;
+	font-weight: bold;
+	color: orange;
+}
+h3{
+	color: #95a5a6;
+}
+
+h4{
+	font-size: 20px;
+}
+
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
+}
+
+
+
+#menu li {
+	display: inline-block;
+	list-style: none;
+	padding: 4px;
+	font: bold 10px tahoma, sans-serif;	
+}
+
+p{
+	line-height: 30px;
+	margin-bottom: 25px;
+}
+
+a{
+	color: orange;
+}
+
+/* Menu nav */
+
+
+.navbar-default {
+	background: rgba(0,0,0,.5);
+	border-color: transparent;
+}
+
+.navbar-default .navbar-brand  {
+	color: white;
+}
+
+.navbar-default .navbar-nav li a:hover {
+	color: #609cd3;
+}
+
+
+.centrado {
+	margin: 40px 0;
+	text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+	header h1 {
+		margin: 17px 0;
+		font-size: 27px;
+	}
+}
+
+#lol:hover{
+	background-color: gray;
+}
+#mate{
+	color: gold;
+}
+
+.zoom{
+    -webkit-transition: all .4s;
+    transition: all .4s;
+}
+
+.zoom:hover {
+ -webkit-transform : scale(1.6);
+         transform : scale(1.6);
+}
+
+footer{
+	background-color: lightblue;
+	border: 1px;
+	border-radius: 30px;
+	padding: 10px;
+}
+
+

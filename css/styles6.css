@@ -1,0 +1,130 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+  font-family: 'Source Sans Pro', 'Sagoe UI', Geneva, Verdana, sans-serif;
+  background:	#F5F5F5;
+  font-size: 12px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100%;
+}
+header {
+	background: url("../img/venta9.jpg") no-repeat center rgba(0,0,0,.5);
+	background-size: cover;
+	width: 100%;
+	min-height: 550px;
+	padding-top: 100px;
+	text-align: center;
+}
+
+.navbar {
+	opacity: 0.8;
+}
+
+#lol:hover {
+	background-color: lightblue;
+}
+
+#agrupar {
+ 
+    margin: 15px auto;
+  
+}
+#seccion {
+    float: left;
+    width: 40%;
+    margin: 20px;
+    
+    -moz-border-radius: 20px;
+-webkit-border-radius: 20px;
+border-radius: 20px;
+}
+#columna {
+   
+   
+    margin: 20px 0px;
+    padding: 20px;
+    
+    
+    -moz-border-radius: 20px;
+-webkit-border-radius: 20px;
+border-radius: 20px;
+}
+
+p{
+	color: lightgreen;
+	padding: 10px;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+
+/* Formulario */
+
+main {
+	width: 400px;
+	padding: 10px;
+	margin: 0 auto;
+	background-color: #EEE;
+	border-radius: 20px;
+	
+	
+}
+
+section {
+	float: left;
+	padding: 10px;
+	
+}
+
+
+label {
+	margin-top: 10px;
+	width: 100px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	border-spacing: 2px;
+}
+
+.block {
+	margin-bottom: 10px;
+	border-spacing: 10px;
+
+	
+}
+
+input {
+	color: #838383;
+	/* Espacio entre cada letra*/
+	letter-spacing: 1px;
+	border: none;
+	padding: 15px;
+	outline: none;
+	border-radius: 3px;
+}
+
+select{
+	color: #838383;
+	/* Espacio entre cada letra*/
+	letter-spacing: 1px;
+	border: none;
+	padding: 15px;
+	outline: none;
+	border-radius: 3px;
+}
+
+button {
+    width: 100%;
+    outline: none;
+    color: #FFF;
+    background-color: lightblue;
+    padding: 8px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    border: none;
+    box-shadow: 0 0 1px #434343;
+}
